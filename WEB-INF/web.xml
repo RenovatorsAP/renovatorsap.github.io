@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>Login</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>WelcomeServlet</servlet-name>
+    <servlet-class>WelcomeServlet</servlet-class>
+  </servlet>
+<servlet>
+    <servlet-name>MeRegisterServlet</servlet-name>
+    <servlet-class>MeRegisterServlet</servlet-class>
+  </servlet>
+<servlet>
+    <servlet-name>Renovation</servlet-name>
+    <servlet-class>Renovation</servlet-class>
+  </servlet>
+
+<servlet>
+    <servlet-name>Rencontact</servlet-name>
+    <servlet-class>Rencontact</servlet-class>
+  </servlet>
+<servlet>
+    <servlet-name>Bookvehicle</servlet-name>
+    <servlet-class>Bookvehicle</servlet-class>
+  </servlet>
+
+<servlet>
+    <servlet-name>Forgotpsw</servlet-name>
+    <servlet-class>Forgotpsw</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WelcomeServlet</servlet-name>
+    <url-pattern>/servlet2</url-pattern>
+  </servlet-mapping>
+<servlet-mapping>
+    <servlet-name>MeRegisterServlet</servlet-name>
+    <url-pattern>/MeRegisterServlet</url-pattern>
+  </servlet-mapping>
+<servlet-mapping>
+    <servlet-name>Renovation</servlet-name>
+    <url-pattern>/Renovation</url-pattern>
+  </servlet-mapping>
+<servlet-mapping>
+    <servlet-name>Rencontact</servlet-name>
+    <url-pattern>/Rencontact</url-pattern>
+  </servlet-mapping>
+<servlet-mapping>
+    <servlet-name>Bookvehicle</servlet-name>
+    <url-pattern>/Bookvehicle</url-pattern>
+  </servlet-mapping>
+<servlet-mapping>
+    <servlet-name>Forgotpsw</servlet-name>
+    <url-pattern>/Forgotpsw</url-pattern>
+  </servlet-mapping>
+
+ 
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  
+</web-app>
